@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-ser;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-bg{
+  height: 100%;
+  color: white;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(47, 31, 119, 0.753) , rgba(211, 87, 71, 0.918));
+}
+
+.logo-img {
+  border: none;
+  width: 151px;
+  height: 45px;
+  margin: 20px;
+}
+.register-button{
+  background-color: #4A4D9E;
+border-color: transparent;
+
+}
+.p-button{
+  font-weight: 500;
+  font-size: 14px;
+}
+.get-started-button{
+  background-color: #E66C5D;
+  border-color: transparent;
+  box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.19);
+}
+.p-button{
+  height: 2rem;
+}
+.n{
+  height: 1rem;
+  border-top-right-radius: 14px;
+  width: 10px;
+}
+.people-img{
+  width: 300px;
+height: 60px;
+}
+.sponsors-img{
+  width: 100%;
+height: 40px;
+}
+.sponsors-img1{
+  width: 100%;
+height: 70px;
+}
+.p-menubar {
+  background-color: transparent !important;
+
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
+  color:white;
+}
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none !important;
+}
+.title{
+  color: white;
+  font-size:70px;
+  font-weight: 700;
+}
+.footer-bg{
+  background-color: #2C4D94;
+  height:60vh;
+  width:100vw;
+}
+.title1{
+  color: white;
+  font-size:40px;
+  font-weight: 700;
+}
+.title2{
+  color: #2A4F95;font-weight: 700;
+  font-size:28px;
+  width:60%;
+  text-align: center;
+}
+.card-logo-img{
+  width:70px;
+}
+.card{
+  width:20vw;
+  border: none !important;
+}
+.section{
+  width:80%;
+  border: none !important;
+}
+.card-img{
+  width:10px;
+  background-color: #E66C5D;
+}
+.section-card-img{
+  width:100%;
+}
+.section-card-img1{
+  width:40%;
+}
+.card-bg{
+  background-image: linear-gradient(to right, #FFE4E2 , #EBE7FA);
+}
+.card-img1{
+  width: 20% !important;
+  padding:12px;
+  border-radius: 35px !important;
+  border-color: darkgray;
+  background-color:white;
+}
+.cardAccordion{
+  width:100%;
+  border:none;
+  height:400px;
+} 
+.p-accordion{
+  border:none
+}
+.p-accordion-content{
+  background-color: transparent;
+}
+.business{
+  background-color: #FDF2F0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.business1{
+  background-color: #FDF2F0;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.sequence{
+  /* width:16%; */
+ background-color: #2A4F95;
+ border-color: transparent;
+  font-size: small;
+  border-radius: 16px !important;
+}
+.card-img, .card-img-bottom, .card-img-top {
+  width: 22% !important;
+  padding:10px;
+  border-radius: 30px !important;
+  box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.19);
+}
+.card-title{
+  font-size: 16px;
+  font-weight: 700;
+}
+.card-description{
+  font-size: 10px;
+  color: darkolivegreen;
+}
+.card-description1{
+  font-size: 12px;
+  font-weight: 600;
+  color: darkolivegreen;
+}
+.get-started-text{
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+
+
+
+.container {
+  text-align: center;
+}
+.toggle-switch {
+  position: relative;
+  width: 75px;
+  display: inline-block;
+  text-align: left;
+  top: 8px;
+}
+.checkbox {
+  display: none;
+}
+.label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+}
+.inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.inner:before,
+.inner:after {
+  float: left;
+  width: 50%;
+  height: 28px;
+  padding: 0;
+  /* line-height: 36px; */
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.inner:before {
+  content: "ON";
+  padding-left: 10px;
+  background-color: #2A4F95;
+  color: #fff;
+}
+.inner:after {
+  content: "OFF";
+  padding-right: 10px;
+  background-color: #ffffff;
+  color: #2A4F95;
+  text-align: right;
+}
+.switch {
+  display: block;
+  width: 20px;
+  margin: 5px;
+  background: #a9adb4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 40px;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.checkbox:checked + .label .inner {
+  margin-left: 0;
+}
+.checkbox:checked + .label .switch {
+  right: 0px;
+}
